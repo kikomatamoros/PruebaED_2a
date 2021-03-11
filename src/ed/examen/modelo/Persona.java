@@ -78,7 +78,6 @@ public class Persona{
 	 * Modifica el primer apellido
 	 * @param apellido1 Nuevo apellido
 	 **/
-	 * */
 	public void setApellido1(String apellido1) {
 		this.apellido1 = apellido1;
 	}
