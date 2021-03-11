@@ -34,9 +34,11 @@ public class Curso {
 		listaAlumnos.add(p);
 	}
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	/**
+	 * Comprueba si un alumno esta registrado en el curso
+	 * @param dni El DNI del alumno a comprobar
+	 * @return Devuelve True si el alumno se han encontrado en el curso, false en caso de que no se encuentre
+	 **/
 	public Boolean estaRegistrado(String dni) {
 		int i =0;
 		Boolean encontrado=false;
