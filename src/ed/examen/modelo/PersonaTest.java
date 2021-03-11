@@ -5,6 +5,8 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 class PersonaTest {
+	
+	Persona p = new Persona("18086912b", "Javier", "Marmol");
 
 	@Test
 	public void testPersonaStringStringString() {
@@ -16,7 +18,7 @@ class PersonaTest {
 	
 	@Test
 	public void testGetDni() {
-		
+		assertEquals("18086912b", p.getDni());
 	}
 
 	@Test
