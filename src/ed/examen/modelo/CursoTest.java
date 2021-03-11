@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 class CursoTest {
 
 	Curso c = new Curso();
+	Persona p = new Persona ("12345678i","Jose", "Luis");
 	
 	@Test
 	public void testEliminarAlumno() {
@@ -29,7 +30,8 @@ class CursoTest {
 
 	@Test
 	public void testAniadirAlumno() {
-
+		c.aniadirAlumno(p);
+		assertTrue(c.estaRegistrado("12345678i"));
 	}
 
 	@Test
