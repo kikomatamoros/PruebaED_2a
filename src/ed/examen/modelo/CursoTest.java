@@ -43,7 +43,8 @@ class CursoTest {
 
 	@Test
 	public void testCurso() {
-		
+		Curso c = new Curso();
+		assertEquals(c.numeroAlumnos(),0);
 	}
 
 	@Test
