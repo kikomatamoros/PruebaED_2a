@@ -36,7 +36,9 @@ class CursoTest {
 
 	@Test
 	public void testEstaRegistrado() {
-		
+		c.aniadirAlumno(p);
+		assertTrue(c.estaRegistrado("12345678i"));
+		assertFalse(c.estaRegistrado("18086912b"));
 	}
 
 	@Test
