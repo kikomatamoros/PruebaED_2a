@@ -49,6 +49,10 @@ public class Persona{
 		}
 	}
 	
+	/**
+	 * Devuelve el nombre de la persona
+	 * @return Printal el nombre
+	 **/
 
 	public String getNombre() {
 		return nombre;
