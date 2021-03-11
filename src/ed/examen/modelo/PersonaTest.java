@@ -23,7 +23,20 @@ class PersonaTest {
 
 	@Test
 	public void testSetDni() {
-		
+		try {
+			p.setDni("12345678c");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		assertEquals("12345678c", p.getDni());
+
+		Boolean lanzaExcepcion = false;
+		try {
+			p.setDni("012345678");
+		} catch (Exception e) {
+			lanzaExcepcion = true;
+		}
+		assertTrue(lanzaExcepcion);
 		
 	}
 
