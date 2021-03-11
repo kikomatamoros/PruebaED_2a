@@ -53,7 +53,7 @@ class PersonaTest {
 
 	@Test
 	public void testGetApellido1() {
-		
+		assertEquals("Marmol", p.getApellido1());
 	}
 
 	@Test
