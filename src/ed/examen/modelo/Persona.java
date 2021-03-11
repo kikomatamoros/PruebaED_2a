@@ -1,5 +1,11 @@
 package ed.examen.modelo;
 
+/**
+ * La clase que representa los alumnos de los cursos
+ * @author Javier
+ * @version 0.1
+ **/
+
 public class Persona{
 	
 	private String dni;
@@ -8,9 +14,12 @@ public class Persona{
 	
 	public Persona() {}
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	/**
+	 * Inicializa a la persona
+	 * @param dni DNI de la persona
+	 * @param nombre Nombre de la persona 
+	 * @param apellido1 Apellido de la persona
+	 **/
 	public Persona(String dni, String nombre, String apellido1) {
 		this.dni = dni;
 		this.nombre = nombre;
