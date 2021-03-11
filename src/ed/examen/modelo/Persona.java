@@ -35,9 +35,11 @@ public class Persona{
 	}
 	
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	/**
+	 * Comprueba que el DNI de la persona introducido es correcto, si no lo es lanza una Excepcion
+	 * @param dni DNI de la persona
+	 * @throws Exception Lanza la excepcion si el ultimo caracter del DNI no es una letra
+	 **/
 	public void setDni(String dni) throws Exception {
 		//comprobacion de si el ultimo caracter es una letra
 		if(Character.isLetter(dni.charAt(dni.length()))) {
@@ -47,9 +49,7 @@ public class Persona{
 		}
 	}
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+
 	public String getNombre() {
 		return nombre;
 	}
