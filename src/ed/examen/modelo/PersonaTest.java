@@ -42,7 +42,7 @@ class PersonaTest {
 
 	@Test
 	public void testGetNombre() {
-		
+		assertEquals("Javier", p.getNombre());
 	}
 
 	@Test
