@@ -51,9 +51,9 @@ public class Curso {
 		return encontrado;
 	}
 	
-	/*
-	 * Documentar y crear test unitario
-	 * */
+	/**
+	 * Inicializa el curso
+	 **/
 	public Curso() {
 		listaAlumnos= new ArrayList<Persona>();
 	}
